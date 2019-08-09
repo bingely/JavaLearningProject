@@ -1,7 +1,7 @@
-package com.example.importknowleage.inject;
+package com.bingley.learning.inject;
 
-import com.example.importknowleage.inject.demo1.Jiecha;
-import com.example.importknowleage.inject.demo1.NoBug;
+import com.bingley.learning.inject.demo1.Jiecha;
+import com.bingley.learning.inject.demo1.NoBug;
 
 import java.lang.reflect.Method;
 

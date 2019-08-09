@@ -1,4 +1,4 @@
-package com.example.importknowleage.inject.demo1;
+package com.bingley.learning.inject.demo1;
 
 /**
  * @author bingley

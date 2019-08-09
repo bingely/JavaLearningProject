@@ -1,4 +1,4 @@
-package com.example.importknowleage;
+package com.bingley.learning.importknowleage;
 
 /**
  * @author bingley

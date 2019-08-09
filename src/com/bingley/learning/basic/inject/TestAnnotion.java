@@ -1,4 +1,4 @@
-package com.example.importknowleage.inject;
+package com.bingley.learning.inject;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
