@@ -1,4 +1,4 @@
-package com.example.desiner.singleton;
+package com.bingley.learning.desiner.singleton;
 
 /**
  * 优点保证单一性，线程安全性，对象初始化延迟性

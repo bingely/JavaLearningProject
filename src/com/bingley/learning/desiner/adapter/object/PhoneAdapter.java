@@ -1,4 +1,4 @@
-package com.example.desiner.adapter.object;
+package com.bingley.learning.desiner.adapter.object;
 
 /**
  * @author bingley

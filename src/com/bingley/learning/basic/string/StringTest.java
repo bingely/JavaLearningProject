@@ -1,4 +1,4 @@
-package com.bingley.learning.string;
+package com.bingley.learning.basic.string;
 
 /**
  * @author Mr.bingley

@@ -1,4 +1,4 @@
-package com.example.desiner.procxy;
+package com.bingley.learning.desiner.procxy;
 
 /**
  * 创建代理类

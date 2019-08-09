@@ -1,4 +1,4 @@
-package com.bingley.learning.set;
+package com.bingley.learning.basic.set;
 
 /**
  * Created by SAM on 2017/6/15.

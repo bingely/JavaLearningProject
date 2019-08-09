@@ -1,4 +1,4 @@
-package com.bingley.learning.reflcet.test;
+package com.bingley.learning.basic.reflcet.test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

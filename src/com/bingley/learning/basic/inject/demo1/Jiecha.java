@@ -1,4 +1,4 @@
-package com.bingley.learning.inject.demo1;
+package com.bingley.learning.basic.inject.demo1;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

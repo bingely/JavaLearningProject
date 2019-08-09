@@ -1,4 +1,4 @@
-package com.bingley.learning.reflcet.method;
+package com.bingley.learning.basic.reflcet.method;
 
 import java.lang.reflect.Constructor;
 
@@ -11,7 +11,7 @@ import java.lang.reflect.Constructor;
 public class ReflectMethodDemo {
     public static void main(String[] args) throws Exception {
         // 获取字节码文件对象
-        Class c = Class.forName("com.bingley.learning.reflcet.Person");
+        Class c = Class.forName("com.bingley.learning.basic.reflcet.Person");
         // 获取构造方法
         // public Constructor[] getConstructors():所有公共构造方法
         // public Constructor[] getDeclaredConstructors():所有构造方法

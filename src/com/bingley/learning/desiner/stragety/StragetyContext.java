@@ -1,4 +1,4 @@
-package com.example.desiner.stragety;
+package com.bingley.learning.desiner.stragety;
 
 /**
  * @author bingley

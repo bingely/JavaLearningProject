@@ -1,4 +1,4 @@
-package com.bingley.learning;
+package com.bingley.learning.basic;
 
 /*
 	代码块：在Java中，使用{}括起来的代码被称为代码块。

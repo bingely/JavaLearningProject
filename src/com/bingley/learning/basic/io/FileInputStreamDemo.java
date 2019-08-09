@@ -1,7 +1,6 @@
-package com.bingley.learning.io;
+package com.bingley.learning.basic.io;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /*

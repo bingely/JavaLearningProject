@@ -1,7 +1,7 @@
-package com.bingley.learning.inject;
+package com.bingley.learning.basic.inject;
 
-import com.bingley.learning.inject.demo1.Jiecha;
-import com.bingley.learning.inject.demo1.NoBug;
+import com.bingley.learning.basic.inject.demo1.Jiecha;
+import com.bingley.learning.basic.inject.demo1.NoBug;
 
 import java.lang.reflect.Method;
 

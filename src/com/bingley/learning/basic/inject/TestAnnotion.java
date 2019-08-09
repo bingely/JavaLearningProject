@@ -1,4 +1,4 @@
-package com.bingley.learning.inject;
+package com.bingley.learning.basic.inject;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

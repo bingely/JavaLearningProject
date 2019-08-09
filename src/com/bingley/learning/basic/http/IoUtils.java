@@ -1,4 +1,4 @@
-package com.bingley.learning.http;
+package com.bingley.learning.basic.http;
 
 import java.io.Closeable;
 import java.io.IOException;

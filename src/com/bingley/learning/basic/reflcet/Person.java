@@ -1,4 +1,4 @@
-package com.bingley.learning.reflcet;
+package com.bingley.learning.basic.reflcet;
 
 /**
  * @author Mr.bingley

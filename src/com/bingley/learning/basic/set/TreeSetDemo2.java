@@ -1,4 +1,4 @@
-package com.bingley.learning.set;
+package com.bingley.learning.basic.set;
 
 import com.bingley.learning.bean.Student;
 

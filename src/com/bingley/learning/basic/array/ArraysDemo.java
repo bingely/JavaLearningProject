@@ -1,4 +1,4 @@
-package com.bingley.learning.array;
+package com.bingley.learning.basic.array;
 
 import java.util.Arrays;
 

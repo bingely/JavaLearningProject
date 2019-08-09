@@ -1,4 +1,4 @@
-package com.example.desiner.observer;
+package com.bingley.learning.desiner.observer;
 
 import java.util.ArrayList;
 import java.util.List;

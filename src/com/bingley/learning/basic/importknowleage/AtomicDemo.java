@@ -1,4 +1,4 @@
-package com.bingley.learning.importknowleage;
+package com.bingley.learning.basic.importknowleage;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;

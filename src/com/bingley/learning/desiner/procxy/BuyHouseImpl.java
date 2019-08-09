@@ -1,4 +1,4 @@
-package com.example.desiner.procxy;
+package com.bingley.learning.desiner.procxy;
 
 /**
  * 实现服务接口

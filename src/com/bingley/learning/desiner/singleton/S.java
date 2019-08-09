@@ -1,4 +1,4 @@
-package com.example.desiner.singleton;
+package com.bingley.learning.desiner.singleton;
 
 
 /**

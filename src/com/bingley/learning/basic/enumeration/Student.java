@@ -1,4 +1,4 @@
-/*package com.bingley.learning.enumeration;
+/*package com.bingley.learning.basic.enumeration;
 
 
 public class Student {

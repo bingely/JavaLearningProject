@@ -1,4 +1,4 @@
-package com.bingley.learning.utils;
+package com.bingley.learning.basic.utils;
 
 
 import java.math.BigDecimal;

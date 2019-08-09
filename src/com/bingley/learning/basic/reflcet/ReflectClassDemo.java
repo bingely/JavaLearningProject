@@ -1,4 +1,4 @@
-package com.bingley.learning.reflcet;
+package com.bingley.learning.basic.reflcet;
 
 
 
@@ -46,7 +46,7 @@ public class ReflectClassDemo {
         System.out.println(c == c3);
         // 方式3
         // ClassNotFoundException
-        Class c4 = Class.forName("com.bingley.learning.reflcet.Person");
+        Class c4 = Class.forName("com.bingley.learning.basic.reflcet.Person");
         System.out.println(c == c4);
 
         Class aClass = Class.forName("com.bingley.forthcp.reflect.Person");

@@ -1,4 +1,4 @@
-package com.example.desiner.chain;
+package com.bingley.learning.desiner.chain;
 
 /**
  * @author bingley

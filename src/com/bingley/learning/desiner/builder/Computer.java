@@ -1,4 +1,4 @@
-package com.example.desiner.builder;
+package com.bingley.learning.desiner.builder;
 
 /**
  * @author bingley

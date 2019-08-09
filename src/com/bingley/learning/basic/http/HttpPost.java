@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-package com.bingley.learning.http;
+package com.bingley.learning.basic.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;

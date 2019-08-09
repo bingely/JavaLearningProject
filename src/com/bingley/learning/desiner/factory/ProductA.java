@@ -1,4 +1,4 @@
-package com.example.desiner.factory;
+package com.bingley.learning.desiner.factory;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.example.desiner.procxy;
+package com.bingley.learning.desiner.procxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package com.example.desiner.observer;
+package com.bingley.learning.desiner.observer;
 
 /**
  * @author bingley

@@ -1,4 +1,4 @@
-package com.bingley.learning;
+package com.bingley.learning.basic;
 
  /**
    *

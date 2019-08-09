@@ -1,4 +1,4 @@
-package com.example.desiner.decorator;
+package com.bingley.learning.desiner.decorator;
 
 /**
  * @author bingley

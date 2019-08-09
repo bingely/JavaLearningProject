@@ -1,4 +1,4 @@
-package com.bingley.learning.set.sort;
+package com.bingley.learning.basic.set.sort;
 
 import java.util.ArrayList;
 import java.util.Collections;

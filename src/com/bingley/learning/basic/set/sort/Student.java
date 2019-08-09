@@ -1,4 +1,4 @@
-package com.bingley.learning.set.sort;
+package com.bingley.learning.basic.set.sort;
 
 /**
  * Created by SAM on 2017/6/28.

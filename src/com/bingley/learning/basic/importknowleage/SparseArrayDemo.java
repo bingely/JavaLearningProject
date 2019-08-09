@@ -1,4 +1,4 @@
-package com.bingley.learning.importknowleage;
+package com.bingley.learning.basic.importknowleage;
 
 /**
  * @author bingley
