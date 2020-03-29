@@ -15,9 +15,7 @@ public class S {
     }
 
 
-    public static S getInstance(){
-        return SViewHolder.
-    }
+
 
     public class SViewHolder{
 
