@@ -4,6 +4,9 @@ import com.bingley.learning.desiner.adapter.object.PhoneAdapter;
 import com.bingley.learning.desiner.adapter.object.Adapter;
 import com.bingley.learning.desiner.adapter.object.Electric;
 import com.bingley.learning.desiner.builder.Computer;
+import com.bingley.learning.desiner.builder.retrofitlib.Call;
+import com.bingley.learning.desiner.builder.retrofitlib.HelloService;
+import com.bingley.learning.desiner.builder.retrofitlib.Retrofit;
 import com.bingley.learning.desiner.chain.ConcreteHandler1;
 import com.bingley.learning.desiner.chain.ConcreteHandler2;
 import com.bingley.learning.desiner.chain.demo2.Director;
@@ -26,8 +29,9 @@ import com.bingley.learning.desiner.stragety.BusStragety;
 import com.bingley.learning.desiner.stragety.StragetyContext;
 
 import java.lang.reflect.Proxy;
+import java.util.List;
 
- /**
+/**
    * 
    * @Author:  Mr.bingley
    * @Version:
@@ -46,6 +50,12 @@ public class Consoler {
         // 构建者模式
         Computer bingley = new Computer.ComputerBuilder().name("bingley").builder();
         System.out.print(bingley.getcName());
+
+
+        Retrofit retrofit = new Retrofit.RetrofitBuilder().baseUrl("hell").builder();
+        HelloService helloService = retrofit.create(HelloService.class);
+        Call<List<String>> bingle = helloService.listRepos("bingle");
+
 
         // 原型模式 https://www.jianshu.com/p/6d1333917ae5
         Card card1 = new Card();
@@ -117,6 +127,8 @@ public class Consoler {
         // 装饰着模式
 
 
+
+
         // 观察者模式
         AObserver aObserver = new AObserver();
         BObserver bObserver = new BObserver();
@@ -124,6 +136,8 @@ public class Consoler {
         postMan.addObserver(aObserver);
         postMan.addObserver(bObserver);
         postMan.updateObsrever();
+
+
 
 
         // 工厂模式
