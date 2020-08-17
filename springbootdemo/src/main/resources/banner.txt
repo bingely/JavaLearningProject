@@ -19,5 +19,5 @@ ${AnsiColor.RED}
                     '.:::::'                    ':'````..
 
 ${AnsiColor.YELLOW}------------------------------------------------
-${AnsiColor.YELLOW}                       :: ${AnsiColor.YELLOW}@Xiao Pengwei
+${AnsiColor.YELLOW}                       :: ${AnsiColor.YELLOW}@bingley
 ${AnsiColor.YELLOW}------------------------------------------------${AnsiColor.WHITE}

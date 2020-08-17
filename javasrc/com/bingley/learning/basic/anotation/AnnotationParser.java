@@ -3,6 +3,7 @@ package com.bingley.learning.basic.anotation;
 import java.lang.reflect.Method;
 
 // 基于反射技术解析注解
+// 意思是都得手动的解析吗
 //
 public class AnnotationParser {
     public static void main(String[] args) throws ClassNotFoundException {
@@ -23,8 +24,10 @@ public class AnnotationParser {
             if (method.isAnnotationPresent(MyAnnotataion.class)) {
                 MyAnnotataion annotation = method.getAnnotation(MyAnnotataion.class);
                 System.out.println("method" + method);
-                System.out.println("name="+annotation.name()+", website"+annotation.website()+", revision="+annotation.revision());
+                System.out.println("name=" + annotation.name() + ", website" + annotation.website() + ", revision=" + annotation.revision());
             }
         }
+
+
     }
 }
