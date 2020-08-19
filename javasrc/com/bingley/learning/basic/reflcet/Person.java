@@ -8,7 +8,10 @@ package com.bingley.learning.basic.reflcet;
  */
 public class Person {
     private String name;
-    int age;
+
+
+
+    private int age;
     public String address;
 
     public Person() {
@@ -44,7 +47,13 @@ public class Person {
     private void function() {
         System.out.println("function");
     }
+    public int getAge() {
+        return age;
+    }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
     @Override
     public String toString() {
         return "Person [name=" + name + ", age=" + age + ", address=" + address

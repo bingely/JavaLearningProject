@@ -9,6 +9,10 @@ package com.bingley.learning.basic.reflcet;
  * @since 2017/1/28.
  */
 
+import com.bingley.learning.basic.reflcet.method.ObjectFactory;
+
+import java.util.Date;
+
 /**
  * 反射：就是通过class文件对象，去使用该文件中的成员变量，构造方法，成员方法。
  *
@@ -38,7 +42,7 @@ public class ReflectClassDemo {
         Person p2 = new Person();
         Class c2 = p2.getClass();
         System.out.println(p == p2);// false
-        System.out.println(c == c2);// true
+        System.out.println(c == c2);// true   // class 都是一样的
         // 方式2
         Class c3 = Person.class;
         // int.class;
@@ -49,6 +53,12 @@ public class ReflectClassDemo {
         Class c4 = Class.forName("com.bingley.learning.basic.reflcet.Person");
         System.out.println(c == c4);
 
-        Class aClass = Class.forName("com.bingley.forthcp.reflect.Person");
+
+        Date date = (Date) ObjectFactory.getInstance("java.util.Date");
+        System.out.println("-----");
+        System.out.println(date.getTime());
+
+        String instance = ObjectFactory.newInstance(String.class);
+        System.out.println(instance);
     }
 }

@@ -1,6 +1,8 @@
 package com.bingley.learning.basic.reflcet.method;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 /**
  * @author Mr.bingley
@@ -22,6 +24,9 @@ public class ReflectMethodDemo {
         // 获取单个构造方法
         // public Constructor<T> getConstructor(Class<?>... parameterTypes)
         // 参数表示的是：你要获取的构造方法的构造参数个数及数据类型的class字节码文件对象
+
+
+        // 为啥要通过这个来生成类的实例？？？ （
         Constructor con = c.getConstructor();// 返回的是构造方法对象
         // Person p = new Person();
         // System.out.println(p);
@@ -30,9 +35,35 @@ public class ReflectMethodDemo {
         Object obj = con.newInstance();
         System.out.println(obj);
 
-        // Person p = (Person)obj;
-        // p.show();
+
+        Method[] methods = c.getMethods();
+        for (Method method :
+                methods) {
+            System.out.println(method.getName());
+        }
+
+        System.out.println("_____________________________________");
 
 
+        Field[] fields = c.getFields();
+        c.getDeclaredFields();
+        for (Field field :
+                fields) {
+            System.out.println(field.toString());
+        }
+
+
+        for (Field field :
+                c.getDeclaredFields()) {
+            System.out.println("所有的属性"+field);
+        }
+
+
+       // Object newInstance = c.getConstructor().newInstance();
+        // 必须是public类型才行吗
+        Object newInstance = c.newInstance();
+        Field field = c.getField("age");
+        field.setInt(newInstance, 10);
+        System.out.println("操作对象里面的值------------------》"+newInstance.toString());
     }
 }
