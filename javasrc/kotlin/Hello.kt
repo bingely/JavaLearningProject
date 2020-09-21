@@ -2,6 +2,10 @@ fun main() {
     println("helloworld")
 
 
+    val a = arrayOf(1, "2", 3)
+    for (a in a) {
+
+    }
 
 
 
@@ -20,6 +24,8 @@ fun main() {
         999
     }
 // 最终结果 = 返回999给变量result
+
+    KUser("bingley")
 
 
 }

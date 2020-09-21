@@ -24,6 +24,7 @@ import com.bingley.learning.desiner.procxy.BuyHouseProxy;
 import com.bingley.learning.desiner.procxy.DynamicProxyHandler;
 import com.bingley.learning.desiner.prototype.Card;
 import com.bingley.learning.desiner.singleton.A;
+import com.bingley.learning.desiner.singleton.C;
 import com.bingley.learning.desiner.singleton.Singer;
 import com.bingley.learning.desiner.stragety.BusStragety;
 import com.bingley.learning.desiner.stragety.StragetyContext;
@@ -43,9 +44,16 @@ public class Consoler {
 
     public static void main(String[] args) {
 
+        Test test = new Test();
+        test.hello();
+
+
+
         // 单例模式
         Singer singerInstance = Singer.getInstance();
         A instance = A.getInstance();
+
+
 
         // 构建者模式
         Computer bingley = new Computer.ComputerBuilder().name("bingley").builder();
@@ -89,6 +97,10 @@ public class Consoler {
         proxyBuyHouse.buyHouse();
 
 
+        /*BuyHouse buyHouse  = new BuyHouseImpl();
+        Proxy.newProxyInstance(BuyHouseProxy.class.getClassLoader(), new Class[]{BuyHouse.class}, new DynamicProxyHandler())
+*/
+
         // 责任链模式  https://www.jianshu.com/p/3b23ac02d8af
         ConcreteHandler1 concreteHandler1 = new ConcreteHandler1();
         ConcreteHandler2 concreteHandler2 = new ConcreteHandler2();
@@ -108,12 +120,21 @@ public class Consoler {
         groupLeader.handleRequest(30000);
 
 
+
         // 策略 如何改造下面的写法
         // 如同是一个锦囊随时可以替换，每个锦囊独立可以替换,那如何替换if else 形式
+        // 策略模式我觉得更像一个包装类
         StragetyContext trafficCalculator = new StragetyContext();
         trafficCalculator.setCalculateStragety(new BusStragety());
         int result = trafficCalculator.calculatePrice(66);
         System.out.print("\n result trafficCalulator is" + result);
+
+
+        StragetyContext stragetyContext = new StragetyContext();
+        stragetyContext.calculatePrice(44);
+
+
+
 
         // 适配器模式
         System.out.println("---------适配器模式-------------");
